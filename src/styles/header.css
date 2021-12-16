@@ -1,0 +1,13 @@
+.header {
+  padding: 20px 0;
+}
+.nav a {
+  margin-left: 20px;
+  color: var(--very-dark-blue);
+}
+
+@media screen and (max-width: 450px) {
+  .nav a {
+    font-size: 13px;
+  }
+}
